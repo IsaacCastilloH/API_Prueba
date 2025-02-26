@@ -62,11 +62,6 @@ Para ejecutar el conjunto de pruebas:
 bash
 docker-compose exec web python manage.py test
 
->[!TIP]
->Para obtener una salida más detallada, añadir el flag -v 2:
-bash
-docker-compose exec web python manage.py test -v 2
-
 🛠️ Desarrollo
 >[!NOTE]
 >El servidor de desarrollo estará disponible en http://localhost:8000
